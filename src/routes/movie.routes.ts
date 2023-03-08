@@ -17,8 +17,6 @@ class MovieRouter {
     this.router.post("/create", this.movieController.createMovie);
     this.router.delete("/delete/:id", this.movieController.deleteMovie);
     this.router.put("/update/:id", this.movieController.updateMovie);
-    // this.router.post("/review/:id", this.movieController.reviewMovie);
-    // this.router.get("/moviesnotreviewd", this.movieController.moviesNotReviewd);
   }
 
   public getRouter(): Router {
