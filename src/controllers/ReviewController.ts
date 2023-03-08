@@ -18,7 +18,7 @@ class ReviewController implements IReviewController{
   public moviesNotReviewed  = async (req: Request, res: Response): Promise<void> => {
 
     const addReview = await this.reviewService.isReviewed()
-    res.status(200).json({msg: 'Movies not reviewd', addReview})
+    res.status(200).json({msg: 'Movies not reviewed', addReview})
   }
 
 }
