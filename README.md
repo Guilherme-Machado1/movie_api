@@ -13,4 +13,4 @@ Quando o filme é deletado, automaticamente todas as reviews relacionadas ao fil
 - Express
 
 Banco de dados Relacional
-- Supabase
+- Postgres (Supabase)
